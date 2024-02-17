@@ -40,7 +40,7 @@ public class MoviesManagerTest {
 
 
         @Test
-        public void moviesManagerFindLastTestLowBorder() {
+        public void moviesManagerFindLastTestLowToBorder() {
             MoviesManager manager = new MoviesManager(4);
 
             manager.addNewMovie("Джентльмены");
